@@ -1,0 +1,11 @@
+<h3>{{legend}} - {{percentage}}</h3>
+
+<div class="input-group">
+    <span>
+        <button (click)="action('-')" class="btn btn-info"> <i class="mdi mdi-minus"></i> </button>
+    </span>
+    <input #txtPer type="text" class="form-control text-center" [value]="percentage" placeholder="">
+    <span>
+        <button (click)="action('+')" class="btn btn-info"> <i class="mdi mdi-plus"></i> </button>
+    </span>
+</div>
